@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Starting FPGA SoC Integration Platform tests...
+ALL SOC TESTS PASSED.
+$finish called at time : 795 ns : File "C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sim_1/new/soc_top_tb.sv" Line 167

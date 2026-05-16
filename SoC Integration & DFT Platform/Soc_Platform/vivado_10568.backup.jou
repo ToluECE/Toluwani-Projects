@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Apr 21 22:46:23 2026
+# Process ID         : 10568
+# Current directory  : C:/Users/tolu/Documents/ASIC/Soc_Platform
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18580 C:\Users\tolu\Documents\ASIC\Soc_Platform\Soc_Platform.xpr
+# Log file           : C:/Users/tolu/Documents/ASIC/Soc_Platform/vivado.log
+# Journal file       : C:/Users/tolu/Documents/ASIC/Soc_Platform\vivado.jou
+# Running On         : TOLUWANIALA2F1B
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Apple Silicon
+# CPU Frequency      : 3072 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 6435 MB
+# Swap memory        : 19326 MB
+# Total Virtual      : 25762 MB
+# Available Virtual  : 11063 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/soc_pkg.sv w ]
+add_files C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/soc_pkg.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/input_interface.sv w ]
+add_files C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/input_interface.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files  C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/alu.sv
+file delete -force C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/alu.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/alu_block.sv w ]
+add_files C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/alu_block.sv
+update_compile_order -fileset sources_1
+file mkdir C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sim_1/new/alu_block_tb.sv w ]
+add_files -fileset sim_1 C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sim_1/new/alu_block_tb.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/control_fsm.sv w ]
+add_files C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/control_fsm.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/soc_top.sv w ]
+add_files C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/soc_top.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top soc_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close [ open C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/soc_top_tb.sv w ]
+add_files C:/Users/tolu/Documents/ASIC/Soc_Platform/Soc_Platform.srcs/sources_1/new/soc_top_tb.sv
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top soc_top_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top soc_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
